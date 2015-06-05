@@ -43,6 +43,8 @@ import java.util.*;
  *         A dependency tracing spy.
  *         Dumps all relevant repository interaction to a file so we can provision
  *         repositories with dependencies.
+ *
+ *         TODO: factor out upload to mojo.
  */
 @Named
 public class PayloadEventSpy extends AbstractEventSpy
