@@ -10,6 +10,7 @@
  *******************************************************************************/
 package com.rebaze.maven.payload;
 
+import com.rebaze.maven.support.AetherUtils;
 import org.apache.maven.eventspy.AbstractEventSpy;
 import org.apache.maven.execution.DefaultMavenExecutionResult;
 import org.apache.maven.execution.ExecutionEvent;
