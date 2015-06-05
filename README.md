@@ -7,7 +7,7 @@ This Maven Core Extension is available under the [Apache License, Version 2.0](h
 
 # Installation
 This extension will probably work with Maven starting version 3.2.5.
-Since this is a |Maven Core Extension], you must either install it directly into MavenHome/lib/ext or install it into [ProjectHome/.mvn/extensions.xml](http://takari.io/2015/03/19/core-extensions.html) (starting Maven 3.3.1).
+Since this is a Maven Core Extension, you must either install it directly into MavenHome/lib/ext or install it into [extensions.xml](http://takari.io/2015/03/19/core-extensions.html) (starting Maven 3.3.1).
 
 # Usage
 When installed, every maven build will produce a single build.payload file in target/ of the reactor project listing all artifacts requested by that build.
