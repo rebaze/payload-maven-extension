@@ -9,7 +9,7 @@ This Maven Core Extension is available under the [Apache License, Version 2.0](h
 This extension will probably work with Maven starting version 3.2.5.
 Since this is a Maven Core Extension, you must either install it directly into MavenHome/lib/ext or install it into [extensions.xml](http://takari.io/2015/03/19/core-extensions.html) (starting Maven 3.3.1).
 
-It is recommended to use Maven 3.3.1+ and configure the extension under file yourprojectfolder/.mvn/extensions.xml like so:
+It is recommended to use Maven 3.3.1+ and configure the extension under file `yourprojectfolder/.mvn/extensions.xml` like so:
 
       <extensions xmlns="http://maven.apache.org/EXTENSIONS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:schemaLocation="http://maven.apache.org/EXTENSIONS/1.0.0 http://maven.apache.org/xsd/core-extensions-1.0.0.xsd">
@@ -22,9 +22,9 @@ It is recommended to use Maven 3.3.1+ and configure the extension under file you
 
 
 # Usage
-When installed, every maven build will produce a single file: target/build.payload in the reactor project listing all artifacts requested by that build.
+When installed, every maven build will produce a single file: `target/build.payload` in the reactor project listing all artifacts requested by that build.
 
-Example output in file target/build.payload
+Example output in file `target/build.payload`
 
     antlr:antlr:jar:2.7.2
     antlr:antlr:jar:sources:2.7.2
