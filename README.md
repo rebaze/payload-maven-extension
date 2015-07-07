@@ -24,5 +24,14 @@ It is recommended to use Maven 3.3.1+ and configure the extension under file you
 # Usage
 When installed, every maven build will produce a single file: target/build.payload in the reactor project listing all artifacts requested by that build.
 
+Example output:
+
+    antlr:antlr:jar:2.7.2
+    antlr:antlr:jar:sources:2.7.2
+    antlr:antlr:pom:2.7.2
+    antlr:antlr:pom:2.7.7
+    aopalliance:aopalliance:jar:sources:1.0
+    ..
+
 The output may be used for analytical purpose or picked up by other tooling like [payload-maven-plugin:deploy](https://github.com/rebaze/payload-maven-plugin)
 
